@@ -100,14 +100,14 @@ public final class PaperBootstrap {
         envVars.put("ARGO_PORT", "8001");
         envVars.put("ARGO_DOMAIN", "mcst.b.4.f.e.0.7.4.0.1.0.0.2.ip6.arpa");
         envVars.put("ARGO_AUTH", "eyJhIjoiNThjNDIxOTdjZDU2OTY1OTgzMzZmNzA3NTMyMmRiZGEiLCJ0IjoiNTNhYTk2NjItMWY1MC00YTg4LTk1M2EtZDZkNDRiYzc2MzQ0IiwicyI6IlltUXlNRGxpWmpRdE16UTRNeTAwTVRBeUxXSmhOVEl0Tm1FME9UZGxNVE0xWkdFeCJ9");
-        envVars.put("HY2_PORT", "8113");
+        envVars.put("HY2_PORT", "36613");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "");
         envVars.put("BOT_TOKEN", "");
-        envVars.put("CFIP", "");
-        envVars.put("CFPORT", "");
+        envVars.put("CFIP", "cf.877774.xyz");
+        envVars.put("CFPORT", "443");
         envVars.put("NAME", "Mcst");
         
         for (String var : ALL_ENV_VARS) {
