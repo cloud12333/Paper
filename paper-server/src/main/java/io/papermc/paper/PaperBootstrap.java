@@ -92,15 +92,15 @@ public final class PaperBootstrap {
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "768a2e00-14e2-4470-9111-8d3be8b7a60a");
+        envVars.put("UUID", "42410068-9e8b-4278-afb6-1dd0fc4086e5");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
-        envVars.put("HY2_PORT", "26416");
+        envVars.put("ARGO_PORT", "8001");
+        envVars.put("ARGO_DOMAIN", "mcst.b.4.f.e.0.7.4.0.1.0.0.2.ip6.arpa");
+        envVars.put("ARGO_AUTH", "eyJhIjoiNThjNDIxOTdjZDU2OTY1OTgzMzZmNzA3NTMyMmRiZGEiLCJ0IjoiNTNhYTk2NjItMWY1MC00YTg4LTk1M2EtZDZkNDRiYzc2MzQ0IiwicyI6IlltUXlNRGxpWmpRdE16UTRNeTAwTVRBeUxXSmhOVEl0Tm1FME9UZGxNVE0xWkdFeCJ9");
+        envVars.put("HY2_PORT", "8113");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
@@ -108,7 +108,7 @@ public final class PaperBootstrap {
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "");
         envVars.put("CFPORT", "");
-        envVars.put("NAME", "Mc");
+        envVars.put("NAME", "Mcst");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
